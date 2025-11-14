@@ -1,2 +1,5 @@
 env
 registros_db.py
+instrucciones.pdf
+__pycache__
+.pyc

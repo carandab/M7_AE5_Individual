@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'ae5_individual.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Usamos MySQL
-        'NAME': 'ae5_individual',            # Nombre de la base de datos
+        'NAME': 'm7_ae5_individual',            # Nombre de la base de datos
         'USER': 'root',                  # Nombre del usuario
         'PASSWORD': 'root',           # Contraseña del usuario
         'HOST': 'localhost',                   # Dirección del servidor
