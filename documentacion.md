@@ -4,7 +4,7 @@
 
 **Proyecto:** ae5_individual  
 **Aplicación:** registros_ORM  
-**Base de datos:** MySQL (ae5_individual)
+**Base de datos:** MySQL (m7_ae5_individual)
 
 ---
 
@@ -324,7 +324,7 @@ python manage.py migrate
 -- Conectarse a MySQL
 mysql -u root -p
 
-USE ae5_individual;
+USE m7_ae5_individual;
 
 -- Ver índices de la tabla
 SHOW INDEX FROM registros_ORM_producto;
@@ -969,7 +969,7 @@ Los **procedimientos almacenados** (stored procedures) son conjuntos de instrucc
 Ejecuta esto directamente en MySQL:
 
 ```sql
-USE ae5_individual;
+USE m7_ae5_individual;
 
 -- Procedimiento 1: Obtener productos por precio mínimo
 DELIMITER //
@@ -1162,7 +1162,7 @@ with connection.cursor() as cursor:
 
 ```sql
 -- En MySQL
-SHOW PROCEDURE STATUS WHERE Db = 'ae5_individual';
+SHOW PROCEDURE STATUS WHERE Db = 'm7_ae5_individual';
 
 -- Ver el código de un procedimiento
 SHOW CREATE PROCEDURE obtener_productos_por_precio;
